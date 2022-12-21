@@ -1,5 +1,5 @@
 # Credit-Card-Fraud-Detection
-Here is a high-level overview of how you can create an artificial intelligence project for credit card fraud detection using Python
+Here is a high-level overview of how you can create an artificial intelligence project for credit card fraud detection using Python.
 
 1. Collect and prepare the data: First, you will need to collect a large dataset of credit card transactions, including both fraudulent and legitimate transactions. You will then need to clean and preprocess the data, which may involve handling missing values, converting data into a suitable format, and scaling numerical features.
 
@@ -14,18 +14,4 @@ Here is a high-level overview of how you can create an artificial intelligence p
 
 We have to import the necessary libraries, including pandas for loading and manipulating the data, train_test_split for splitting the data into training and test sets, StandardScaler for scaling the features, RandomForestClassifier for building the model, and confusion_matrix and classification_report for evaluating the model's performance.
 
-Loads the credit card transactions data from a CSV file using pandas.
-
-Splits the data into features (X) and target (y). The features are the input data used to make predictions, and the target is the output data that we are trying to predict.
-
-Splits the data into training and test sets using train_test_split. The training set is used to train the model, and the test set is used to evaluate the model's performance.
-
-Scales the features using StandardScaler to ensure that all features are on the same scale.
-
-Builds the model using RandomForestClassifier.
-
-Trains the model on the training data using the fit method.
-
-Makes predictions on the test data using the predict method.
-
-Evaluates the model's performance using confusion_matrix and classification_report.
+We have to import the necessary libraries, including pandas for loading and manipulating the data, train_test_split for splitting the data into training and test sets, StandardScaler for scaling the features, RandomForestClassifier for building the model, and confusion_matrix and classification_report for evaluating the model's performance
