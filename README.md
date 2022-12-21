@@ -14,4 +14,3 @@ Here is a high-level overview of how you can create an artificial intelligence p
 
 We have to import the necessary libraries, including pandas for loading and manipulating the data, train_test_split for splitting the data into training and test sets, StandardScaler for scaling the features, RandomForestClassifier for building the model, and confusion_matrix and classification_report for evaluating the model's performance.
 
-We have to import the necessary libraries, including pandas for loading and manipulating the data, train_test_split for splitting the data into training and test sets, StandardScaler for scaling the features, RandomForestClassifier for building the model, and confusion_matrix and classification_report for evaluating the model's performance
